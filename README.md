@@ -1,5 +1,7 @@
 # Introduction
 
+https://lidenghui.github.io/gitbook-blog/
+
 主要用来写技术文档， gitbook样式比较好看
 ## Dev
 
@@ -23,4 +25,5 @@ gitbook build
 npm install
 
 npm run publish
+// 这个命令将主动推送_book文件到gh-pages远程分支
 ```

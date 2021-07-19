@@ -1,8 +1,15 @@
 var ghpages = require('gh-pages');
 var execa = require('execa');
 
-execa.commandSync('gitbook install');
-execa.commandSync('gitbook build');
+execa.commandSync('gitbook install', {
+    stdout: process.stdout
+});
+execa.commandSync('gitbook build',{
+    stdout: process.stdout
+});
 ghpages.publish('_book', function(err) {
-    console.log(err)
+    if(err) {
+        console.log("publish Error", err)
+    }
+    console.log('publish Success')
 });
