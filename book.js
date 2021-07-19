@@ -5,7 +5,7 @@ module.exports = {
   "language": "zh-hans",
   "links": {
     "sidebar": {
-      
+         
     }
   },
   "styles": {
@@ -17,11 +17,15 @@ module.exports = {
     "splitter",
     "github",
     "back-to-top-button",
-    "summary" // 自动生成目录
+    "summary-xy" // 自动生成目录
   ],
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/lidenghui/gitbook-blog"
+    },
+    "summary-xy": {
+      "ignorePath": ["**/images"],
+      "subSubmmaryPath": "SUB_SUMMARY",
     },
     "theme-default": {
       "showLevel": true
