@@ -24,7 +24,7 @@ module.exports = {
       "url": "https://github.com/lidenghui/gitbook-blog"
     },
     "summary-xy": {
-      "ignorePath": ["**/images"],
+      "ignorePath": ["**/images", "./script"],
       "subSubmmaryPath": "SUB_SUMMARY",
     },
     "theme-default": {
