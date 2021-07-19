@@ -1,0 +1,25 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "主要用来写技术文档， gitbook样式比较好看 ## Dev",
+  "main": "book.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "publish": "node ./script/publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiDengHui/gitbook-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiDengHui/gitbook-blog/issues"
+  },
+  "homepage": "https://github.com/LiDengHui/gitbook-blog#readme"
+}
