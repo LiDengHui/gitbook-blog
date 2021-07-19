@@ -16,3 +16,11 @@ gitbook serve
 // gitbook 启动编译
 gitbook build
 ```
+
+## PUBLISH
+
+```
+npm install
+
+npm run publish
+```
