@@ -8,5 +8,8 @@ execa.commandSync('gitbook build',{
     stdout: process.stdout
 });
 ghpages.publish('_book', function(err) {
-    console.log(err)
+    if(err) {
+        console.log("publish Error", err)
+    }
+    console.log('publish Success')
 });
