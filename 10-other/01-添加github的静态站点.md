@@ -8,7 +8,7 @@
 ![git静态页面配置](./images/2021-07-19-17-42-36.png)
 
 
-## 使用·gh-pages·库添加分支
+## 使用`gh-pages`库添加分支
 
 ```js
 var ghpages = require('gh-pages');
